@@ -27,7 +27,7 @@ export const Navbar = () => {
                                 </Button>
                                 <Button size="sm" className="bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 border-none text-white shadow-lg shadow-purple-500/20">
                                     <SignInButton>
-                                        Get Boardy
+                                        Get Srishti
                                     </SignInButton>
                                 </Button>
                             </>
@@ -36,7 +36,7 @@ export const Navbar = () => {
                             <>
                                 <Button variant="ghost" size="sm" asChild className="text-white/80 hover:text-white hover:bg-white/10">
                                     <Link href="/dashboard">
-                                        Enter Boardy
+                                        Enter Srishti
                                     </Link>
                                 </Button>
                                 <UserButton afterSignOutUrl="/" />
@@ -62,7 +62,7 @@ const Logo = () => {
                     </svg>
                 </div>
                 <span className="font-bold text-xl tracking-tight text-white hidden md:flex">
-                    Boardy
+                    Srishti
                 </span>
             </div>
         </Link>
