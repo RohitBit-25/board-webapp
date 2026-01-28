@@ -4,7 +4,7 @@ import { useConvexAuth } from "convex/react";
 import { SignInButton, UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Spinner } from "@/components/auth/loading"; // Assuming this exists or I'll use a simple loader
+import { Spinner } from "@/components/spinner";
 
 export const Navbar = () => {
     const { isAuthenticated, isLoading } = useConvexAuth();

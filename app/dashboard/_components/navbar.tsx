@@ -28,9 +28,10 @@ export const Navbar = () => {
                                 padding: "6px",
                                 width: "100%",
                                 borderRadius: "8px",
-                                border: "1px solid #E5E7EB",
+                                border: "1px solid rgba(255,255,255,0.1)",
                                 justifyContent: "space-between",
-                                backgroundColor: "white"
+                                backgroundColor: "rgba(255,255,255,0.05)",
+                                color: "white"
                             }
                         }
                     }}
