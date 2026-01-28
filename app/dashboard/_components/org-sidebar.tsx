@@ -29,11 +29,10 @@ export const OrgSidebar = () => {
                         </svg>
                     </div>
                     <span className={cn(
-                        "font-semibold text-2xl",
+                        "font-semibold text-2xl tracking-tight text-white/90",
                         font.className
                     )}>
-                        Board
-
+                        Srishti
                     </span>
                 </div>
             </Link>

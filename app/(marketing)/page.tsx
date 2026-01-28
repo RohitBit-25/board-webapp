@@ -69,7 +69,7 @@ const MarketingPage = () => {
 
             {/* Footer */}
             <footer className="w-full border-t border-white/5 py-8 text-center text-slate-600 text-sm">
-                <p>&copy; 2024 Boardy. Crafted with ❤️ in India.</p>
+                <p>&copy; 2024 Srishti. Crafted with ❤️ in Bharat.</p>
             </footer>
 
         </div>
