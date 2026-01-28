@@ -10,8 +10,8 @@ import { Loading } from "@/components/auth/loading";
 const font = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Boardy | Premium Collaborative Whiteboard",
-  description: "A high-end real-time collaborative whiteboard for creative professionals.",
+  title: "Srishti | The Infinite Canvas",
+  description: "A premium digital workspace for crafting your universe of ideas. Made for creators.",
 };
 
 export default function RootLayout({
