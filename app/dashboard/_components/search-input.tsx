@@ -37,7 +37,7 @@ export const SearchInput = () => {
     return (
         <div className="w-full relative">
             <Search className="absolute top-1/2 left-3 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-            <Input className="w-full max-w-[516px] pl-9"
+            <Input className="w-full max-w-[516px] pl-9 bg-white/5 border-white/10 text-white placeholder:text-gray-400 focus-visible:ring-indigo-500/50 focus-visible:ring-offset-0 focus-visible:border-indigo-500/50 hover:bg-white/10 transition-colors"
                 placeholder="Search boards"
                 onChange={handleChange}
                 value={value} />

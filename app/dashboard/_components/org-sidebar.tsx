@@ -21,12 +21,13 @@ export const OrgSidebar = () => {
         <div className="hidden lg:flex flex-col space-y-6 w-[206px] pl-5 pt-5">
             <Link href="/">
                 <div className="flex items-center gap-x-2">
-                    <Image
-                        src="/logo.svg"
-                        alt="Logo"
-                        height={60}
-                        width={60}
-                    />
+                    <div className="bg-indigo-500/20 p-1.5 rounded-lg border border-indigo-500/30">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-indigo-400">
+                             <path d="M4 4H20V20H4V4Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                             <path d="M9 9H15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                             <path d="M12 12V16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        </svg>
+                    </div>
                     <span className={cn(
                         "font-semibold text-2xl",
                         font.className
